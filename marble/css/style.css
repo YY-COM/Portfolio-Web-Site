@@ -1,3 +1,9 @@
+
+.js-clock h2 {
+  font-size: 20px;
+  padding: 15px;
+}
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
