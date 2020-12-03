@@ -362,10 +362,20 @@ figure figcaption {
   vertical-align: middle;
   min-height: 700px;
   padding: 2em;
+  font-size: 40px;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner3 {
+  display: table-cell;
+  vertical-align: middle;
+  min-height: 700px;
+  padding: 2em;
+  font-size: 40px;
+  color: #e6e6e6;
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner {
     text-align: center;
+    font-size: 40px;
   }
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1, #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
