@@ -515,9 +515,11 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 .blog-entry .desc {
   padding: 25px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .blog-entry .desc h3 {
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 10px;
   letter-spacing: 1px;
@@ -530,11 +532,16 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .blog-entry .desc span {
   display: block;
   margin-bottom: 20px;
-  font-size: 11px;
+  font-size: 9px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: rgba(0, 0, 0, 0.4) !important;
+
 }
+.blog-entry .desc p {
+  font-size: 12px;
+}
+
 .blog-entry .desc span small i {
   color: #e6e6e6;
 }
