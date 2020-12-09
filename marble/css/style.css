@@ -485,7 +485,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .blog-entry {
   width: 100%;
-  float: left;
+  float: left; 
   background: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -1166,7 +1166,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-md {
-    padding-bottom: 1em;
+    padding-bottom: 2em;
   }
 }
 
@@ -1186,5 +1186,37 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
+/*
+#wrapper1 {
+  display: flex;
+}
+#wrapper2 {
+  display: flex;
+}
+#project1{
+  order: 1;
+}
+#project2{
+  order: 2;
+}
+#project3{
+  order: 3;
+}
+#project4{
+  order: 4;
+}
+#project5{
+  order: 5;
+}
+#project6{
+  order: 6;
+}
+#project7{
+  order: 7;
+}
+#project8{
+  order: 8;
+}
+*/
 
 /*# sourceMappingURL=style.css.map */
