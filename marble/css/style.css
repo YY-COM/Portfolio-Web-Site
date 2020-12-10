@@ -519,7 +519,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   margin-bottom: 50px;
 }
 .blog-entry .desc h3 {
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   margin-bottom: 10px;
   letter-spacing: 1px;
@@ -1186,12 +1186,17 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
-/*
+
 #wrapper1 {
   display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+
 }
 #wrapper2 {
   display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 #project1{
   order: 1;
@@ -1217,6 +1222,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 #project8{
   order: 8;
 }
-*/
+
 
 /*# sourceMappingURL=style.css.map */
