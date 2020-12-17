@@ -1,4 +1,5 @@
 
+
 .js-clock h2 {
   font-size: 20px;
   padding: 15px;
@@ -92,6 +93,7 @@ figure figcaption {
   width: 100%;
   overflow: hidden;
   position: relative;
+
 }
 
 #fh5co-aside {
@@ -519,7 +521,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   margin-bottom: 50px;
 }
 .blog-entry .desc h3 {
-  font-size: 15px;
+  font-size: 20px;
   text-transform: uppercase;
   margin-bottom: 10px;
   letter-spacing: 1px;
@@ -613,11 +615,14 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   .work .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
-    color: #fff;
+    color: black;
+    font-size: 16px;
+    display: none; /*내가 추가함*/
   }
   .work .desc span {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    display: none; /*내가 추가함*/
   }
 }
 .work:hover .desc {
@@ -1199,7 +1204,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   align-items: stretch;
 }
 #project1{
-  order: 4;
+  order: 1;
 }
 #project2{
   order: 2;
@@ -1208,7 +1213,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   order: 3;
 }
 #project4{
-  order: 1;
+  order: 4;
 }
 #project5{
   order: 5;
@@ -1222,12 +1227,16 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 #project8{
   order: 8;
 }
-
-iframe{
+iframe {
+  display: block;       /* iframes are inline by default */
+  border: none;         /* Reset default border */
   width: 100%;
-  height: 1000px;
-
-
-
+  height: 1500px;
 }
+
+.docs {
+  height: 100%;
+  margin: 0;         /* Reset default margin on the body element */
+}
+
 /*# sourceMappingURL=style.css.map */
